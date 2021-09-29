@@ -9,6 +9,10 @@ CSS file.
 ******************************************************************/
 
 // Import local Foundation overrides - Don't link to Bower version as it will be overwritten whenever updated
+@import "utilities/variables";
+@import "utilities/fonts";
+@import "utilities/mixins";
+
 @import "settings";
 
 // Import foundation.scss from vendor files
@@ -66,3 +70,15 @@ CSS file.
 
 // Import your custom styles
 @import "global";
+
+@import "layout/header";
+@import "layout/footer";
+
+@import "base/spacing";
+@import "base/typography";
+
+@import "components/buttons";
+
+@import "pages/homepage";
+
+
