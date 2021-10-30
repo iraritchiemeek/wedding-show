@@ -9,9 +9,7 @@
 
 <!doctype html>
 
-  <html class="no-js"  <?php language_attributes(); ?>>
-
-	<head>
+  <html class="no-js"  <?php language_attributes(); ?>><head>
 		<meta charset="utf-8">
 		
 		<!-- Force IE to use the latest rendering engine available -->
@@ -20,7 +18,7 @@
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta class="foundation-mq">
-		
+		<link rel="stylesheet" href="https://use.typekit.net/hij3aoz.css">
 		<!-- If Site Icon isn't set in customizer -->
 		<?php if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) { ?>
 			<!-- Icons & Favicons -->

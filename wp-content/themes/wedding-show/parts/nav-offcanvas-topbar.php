@@ -5,11 +5,12 @@
  * For more info: http://jointswp.com/docs/off-canvas-menu/
  */
 ?>
-
+<div data-sticky-container>
+    <div data-sticky data-margin-top="0">
 <div class="top-bar" id="top-bar-menu">
 	<div class="top-bar-left float-left">
 		<ul class="menu">
-			<li><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></li>
+			<li><a class="scene-hdr-logo" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></li>
 		</ul>
 	</div>
 	<div class="top-bar-right show-for-medium">
@@ -22,3 +23,5 @@
 		</ul>
 	</div>
 </div>
+        </div><!-- end sticky-->   
+</div> <!-- end sticky container-->    

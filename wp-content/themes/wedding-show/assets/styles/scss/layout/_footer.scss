@@ -1,0 +1,14 @@
+.footer {
+    
+    background-image:url('../images/scene-hm-logo-lg.svg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    
+    .inner-footer {
+        padding: 120px 0 300px;
+        
+        ul {
+            list-style-type: none;
+        }
+    }
+}

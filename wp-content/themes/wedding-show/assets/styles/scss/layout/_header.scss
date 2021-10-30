@@ -1,0 +1,61 @@
+.top-bar, .top-bar {
+    padding: 10px;
+    ul {
+        background-color: #fff;
+        li {
+
+                border-right: 1px solid  #000;
+            
+                &:last-child {
+                border-right: 1px solid  #fff;
+            }
+
+
+        }
+    }
+    
+    
+}
+
+
+
+.top-bar .top-bar-left {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+.fix-it {
+    position: fixed;
+}
+
+.menu .button, .menu a {
+    padding: 0.1rem 1rem;
+    
+}
+
+.dropdown.menu>li>a {
+    padding: 0.1rem 1rem;
+}
+
+
+.top-bar, .top-bar ul {
+    background-color: #fff;
+}
+
+.menu .active>a, .menu .is-active>a {
+    background: #fff;
+    color: #999;
+}
+
+.scene-hdr-logo {
+    background-image:url('../images/scene-hdr-logo.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 105px;
+    height: 14px;
+    padding: 0;
+    text-indent: -9999px;
+    
+}

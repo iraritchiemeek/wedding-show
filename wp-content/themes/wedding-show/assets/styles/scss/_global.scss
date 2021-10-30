@@ -3,6 +3,66 @@
 Stylesheet: Global Stylesheet
 
 *************************************************/
+body {
+    font-family: "Moderat-Regular",Helvetica,Roboto,Arial,sans-serif;
+}
+
+a {
+    line-height: inherit;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+        color: #999;
+    }
+	&:focus {
+        color: #999;
+    }
+}
+
+.h1, h1  {
+    font-family: ltc-bodoni-175,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.h2, h2  {
+    font-family: ltc-bodoni-175,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.4rem;
+    text-align: center;
+    
+    
+}
+
+.h3, .h4, .h5, .h6, h3, h4, h5, h6 {
+    font-family: "Moderat-bold",Helvetica,Roboto,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: inherit;
+    text-rendering: optimizeLegibility;
+}
+
+.controls-row {
+    padding: 125px 0 0px;
+}
+
+
+.controls-right {
+    text-align: right;
+    a {
+        padding: 0 15px;
+    }
+    
+}
+
+.details {
+    padding-top: 40px;
+    padding-bottom: 60px
+}
 
 /*********************
 POSTS & CONTENT STYLES

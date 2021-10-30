@@ -1,0 +1,90 @@
+
+
+.cover {
+    color: white;
+    background-image: url(../images/home-cover-temp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+    p {
+        text-align: center;
+        font-family: "Moderat-bold",Helvetica,Roboto,Arial,sans-serif;
+    }
+    
+}
+
+
+.showdetails {
+    padding-top: 80px;
+    
+}
+
+.scene-title-logo-container {
+    height: 125px;
+    margin-top: 187px;
+    background-image:url('../images/scene-hm-logo-lg.svg');
+    background-repeat: no-repeat;
+    background-position: top 226px center;
+    background-attachment: fixed;
+} 
+
+.home-logo {
+    position: fixed;
+    
+}
+
+.intro {
+    text-align: center;
+    padding: 80px 0;
+    
+    .h1, h1 {display: none;}
+    p {
+        font-family: ltc-bodoni-175,serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+    }
+}
+
+.exhibitors {
+    text-align: center;
+    padding-bottom: 80px;
+    
+    ul {
+        margin-left: 0;
+        li {
+            font-family: ltc-bodoni-175,serif;
+            list-style-type: none;
+            font-size: 8rem;
+            padding-bottom: 5px;
+            border-top: 1px solid black;
+            
+            sub {
+                    bottom: 4.75em;
+                }
+
+        }
+    }
+    
+    .number-of {
+        font-family: "Moderat-Regular",Helvetica,Roboto,Arial,sans-serif;
+        font-size: 1rem;
+        
+    }
+    
+}
+
+
+.scenemagazine {
+    background-color: #000;
+    text-align: center;
+    padding: 120px 0;
+    p {
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 40px 0;
+    }
+}
