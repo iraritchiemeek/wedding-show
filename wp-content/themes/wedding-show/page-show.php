@@ -48,7 +48,7 @@ get_header(); ?>
     </div> <!-- end grid-container --> 
 
         
-    <div class="grid-container">
+    <div class="grid-container padding-row">
         <div class="inner-content grid-x grid-margin-x grid-padding-x align-middle">
             <div class="small-12 large-6 medium-6 cell">
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/show-1.jpg">
@@ -59,7 +59,7 @@ get_header(); ?>
         </div> <!-- end #inner-content -->
     </div><!-- end grid-container --> 
     
-    <div class="grid-container ">
+    <div class="grid-container padding-row">
         <div class="inner-content grid-x grid-margin-x grid-padding-x align-middle">
             <div class="small-12 large-6 medium-6 cell">
               <p class="info-box">Join us for a delicious day of fun, inspiration and the opportunity to meet the best and most creative wedding and event vendors Wellington has to offer.</p>
@@ -72,8 +72,8 @@ get_header(); ?>
         </div> <!-- end #inner-content -->
     </div><!-- end grid-container --> 
         
-    <div class="grid-container">
-        <div class="inner-content grid-x grid-margin-x grid-padding-x align-middle>
+    <div class="grid-container padding-row">
+        <div class="inner-content grid-x grid-margin-x grid-padding-x align-middle">
             <div class="small-12 large-6 medium-6 cell">
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/show-3.jpg">
             </div>
