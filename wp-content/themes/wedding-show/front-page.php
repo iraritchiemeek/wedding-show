@@ -14,9 +14,9 @@ get_header(); ?>
         <section class="cover">
         <div class="grid-container">
                <div class="grid-x grid-margin-x showdetails">
-                <div class="cell small-4"><p>Wellington<br /> Wedding & <br />Event Show</p></div>
-                <div class="cell small-4"><p>1ST MAY, <br />10am – 4pm</p></div>
-                <div class="cell small-4"><p>TSB BANK <br />AREA</p></div>
+                <div class="cell small-4 border-right"><p>Wellington<br /> Wedding & <br />Event Show</p></div>
+                <div class="cell small-4 border-right"><p>1ST MAY, <br />10am – 4pm,<br />2022</p></div>
+                <div class="cell small-4"><p>TSB BANK <br />AREA, <br />WELLINGTON</p></div>
               </div>
             </div>
         </section>

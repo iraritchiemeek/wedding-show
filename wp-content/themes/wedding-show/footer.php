@@ -12,7 +12,7 @@
                      <div class="grid-container">
                     <div class="inner-footer grid-x grid-margin-x grid-padding-x">
                     
-                        <div class="cell small-3"><h5>Scene - Wellington<br /> Wedding & <br />Event Show</h5>
+                        <div class="cell small-3"><h6>Scene - Wellington<br /> Wedding & <br />Event Show</h6>
                         <p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
                         </div>
                                <div class="cell small-3">

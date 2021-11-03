@@ -1,0 +1,36 @@
+
+
+.cover-show {
+    color: white;
+    background-image: url(../images/show-cover-temp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+      display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+    
+    .h1, h1  {
+    line-height: 1;
+    }
+
+    p {
+        text-align: center;
+        font-family: "Moderat-bold",Helvetica,Roboto,Arial,sans-serif;
+    }
+     .showdetails {
+    padding-bottom: 50px;
+    
+    }
+}
+
+.info-box {
+    
+    padding: 0px 100px;
+}

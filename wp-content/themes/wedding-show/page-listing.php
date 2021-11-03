@@ -41,25 +41,21 @@ get_header(); ?>
           <div class="grid-container">
                <div class="grid-x grid-margin-x details">                    
                    <div class="cell small-6 medium-2">                    
-                      <h5>DETAILS</h5>
+                      <h6>DETAILS</h6>
                         <p>Hours: by appointment</p>
                         <p>Phone: Show Number</p>
                         <p>Address: Tauherenikau Racecourse Rd, State Highway 2, Tauherenikau 5771</p>
-                        <p>Email: Message Vendor</p>
+                        <p>Email: Message Vendo===-098
                         <p>Website: <a href="https://roseandsmith.co.nz/" target="_blank">roseandsmith.co.nz</a></p>
                        <p>Facebook:  <a href="#">@roseandsmith</a></p>
                     </div>
-                   <div class="cell small-6 medium-2">                    
-                      <h5>NOTES</h5>
-                        <p>Hours: by appointment</p>
-                        <p>Phone: Show Number</p>
-                        <p>Address: Tauherenikau Racecourse Rd, State Highway 2, Tauherenikau 5771</p>
-                        <p>Email: Message Vendor</p>
-                        <p>Website: <a href="https://roseandsmith.co.nz/" target="_blank">roseandsmith.co.nz</a></p>
-                       <p>Facebook:  <a href="#">@roseandsmith</a></p>
+                   <div class="cell small-6 medium-2 medium-offset-1">                    
+                      <h6>NOTES</h6>
+                        <p>Capacity: 200 dining<br />
+                       500 cocktail.</p>
                     </div>
 
-                    <div class="cell small-12 medium-5 medium-offset-3">                    
+                    <div class="cell small-12 medium-5 medium-offset-2 content-pad">                    
                       <?php echo the_content(); ?>
                     </div>
                 </div>
