@@ -1,11 +1,12 @@
 .top-bar, .top-bar {
-    padding: 10px;
+    padding: 20px;
     ul {
         background-color: #fff;
         li {
-
-                border-right: 1px solid  #000;
-            
+                text-transform: uppercase;
+                border-right: thin solid  #333;
+                font-size: .9rem;
+                letter-spacing: 1.1px;
                 &:last-child {
                 border-right: 1px solid  #fff;
             }

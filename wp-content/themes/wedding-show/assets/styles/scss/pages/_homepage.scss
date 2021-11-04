@@ -26,11 +26,11 @@
 
 
 .scene-title-logo-container {
-    height: 125px;
-    margin-top: 187px;
-    background-image:url('../images/scene-hm-logo-lg.svg');
+height: 105px;
+    margin-top: 136px;
+    background-image: url(../images/scene-hm-logo-lg.svg);
     background-repeat: no-repeat;
-    background-position: top 226px center;
+    background-position: top 173px center;
     background-attachment: fixed;
 } 
 
@@ -61,7 +61,7 @@
         li {
             font-family: ltc-bodoni-175,serif;
             list-style-type: none;
-            font-size: 8rem;
+            font-size: 8vw;
             padding-bottom: 5px;
             border-top: 1px solid black;
             
