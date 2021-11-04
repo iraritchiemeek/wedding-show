@@ -3,6 +3,7 @@
 	Template Name: Single Exhibitor
 */
 
+$type = get_field('type');
 $hours = get_field('hours');
 $phone = get_field('phone');
 $address = get_field('address');
@@ -10,6 +11,7 @@ $email = get_field('email');
 $website = get_field('website');
 $facebook = get_field('facebook');
 $instagram = get_field('instagram');
+$notes = get_field('notes');
 
 get_header(); ?>
 	
@@ -21,7 +23,7 @@ get_header(); ?>
                     <p><a href="#">EXHIBITORS</a></p></p>
                    </div>
                <div class="cell small-12 medium-6 controls-right">                    
-                   <p><a href="#">VENUES</a></p></div>
+                   <p><a href="#"><?php echo strtoupper($type) ?></a></p></div>
               </div>
         </div>
         
