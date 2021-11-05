@@ -7,6 +7,9 @@
     .inner-footer {
         padding: 120px 0 300px;
         
+        @media screen and (max-width: 39.9375em) {  
+            text-align: center;
+        }
          ol, ul {
             list-style-type: none;
              margin-left: 0rem;

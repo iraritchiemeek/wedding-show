@@ -12,22 +12,22 @@
                      <div class="grid-container">
                     <div class="inner-footer grid-x grid-margin-x grid-padding-x">
                     
-                        <div class="cell small-3"><h6>Scene - Wellington<br /> Wedding & <br />Event Show</h6>
+                        <div class="cell small-12 medium-3"><h6>Scene - Wellington<br /> Wedding & <br />Event Show</h6>
                         <p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
                         </div>
-                               <div class="cell small-3">
+                               <div class="cell small-12 medium-3">
                         		  <nav role="navigation">
 	    						    <?php joints_footer_links(); ?>
 	    					      </nav>
                                 </div>
-                            <div class="cell small-3">
+                            <div class="cell small-12 medium-3">
                                 <p>Join us on:</p>
                                 <ul>
                                     <li><a href="#">Facebook</a></li>
                                     <li><a href="#">Instagram</a></li>
                                 </ul></div>
                         
-                            <div class="cell small-3">
+                            <div class="cell small-12 medium-3">
                             <p>Paula Bevege<br />
                                Phone: 0274 490 025<br />
                                Email: paula@sceneevents.co.nz</p>

@@ -8,9 +8,12 @@
                 font-size: .9rem;
                 letter-spacing: 1.1px;
                 &:last-child {
-                border-right: 1px solid  #fff;
-            }
+                border-right: 1px solid  #fff;    
 
+            }
+                    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+                        font-size: .8rem;
+                    }
 
         }
     }
@@ -25,6 +28,11 @@
     flex: 1 1 auto;
     margin-right: auto;
     padding-left: 10px;
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        padding-left: 8px;
+        
+    }
+    
 }
 
 .fix-it {

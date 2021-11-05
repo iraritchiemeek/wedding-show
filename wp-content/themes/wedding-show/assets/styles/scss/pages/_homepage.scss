@@ -34,6 +34,18 @@ height: 105px;
     background-attachment: fixed;
 } 
 
+@media screen and (max-width: 39.9375em) {
+    .scene-title-logo-container {
+        height: 105px;
+        margin-top: 62px;
+        background-image: url(../images/scene-hm-logo-mob.svg);
+        background-repeat: no-repeat;
+        background-position: top 173px center;
+        background-attachment: fixed;
+    } 
+
+}
+
 .home-logo {
     position: fixed;
     
@@ -65,9 +77,19 @@ height: 105px;
             padding-bottom: 5px;
             border-top: 1px solid black;
             
+            @media screen and (max-width: 39.9375em) {              
+                            font-size: 9vw;
+                    }
+            
             sub {
                     bottom: 4.75em;
+                    
+                @media screen and (max-width: 39.9375em) {              
+                            bottom: .75em;
+                    }
                 }
+
+            
 
         }
     }
