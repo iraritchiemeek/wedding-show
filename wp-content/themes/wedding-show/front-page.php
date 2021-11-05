@@ -5,6 +5,34 @@
 
  */
 
+function getExhibitorTypes() {
+    $args = array(
+        'numberposts' => -1,
+        'post_type' => 'exhibitor_type',
+    );
+    $posts = get_posts($args);
+    return $posts;
+}
+
+function getTypeCount($type) {
+    $args = array(
+        'numberposts' => -1,
+        'post_type' => 'exhibitor',
+        'fields' => 'ids',
+        'meta_query' => array(
+            array(
+                'key' => 'type',
+                'value' => $type->ID,
+                'compare' => '='
+            ),
+        )
+    );
+    $posts = get_posts($args);
+    return count($posts);
+}
+
+$exhibitor_types = getExhibitorTypes();
+
 get_header(); ?>
 	
 	<div class="content">
@@ -53,16 +81,9 @@ get_header(); ?>
         <div class="inner-content grid-x grid-margin-x grid-padding-x">
             <div class="small-12 large-12 medium-12 cell">
                 <ul>
-                    <li><a href="#">Caterers</a><sub class="number-of"> 5</sub></li>
-                    <li><a href="#">Entertainment</a><sub class="number-of"> 7</sub></li>
-                    <li><a href="#">Florists</a><sub class="number-of"> 4</sub></li>
-                    <li><a href="#">Fashion</a><sub class="number-of"> 5</sub></li>
-                    <li><a href="#">Hair & makup</a><sub class="number-of"> 2</sub></li>
-                    <li><a href="#">Photography & videographers</a><sub class="number-of"> 15</sub></li>
-                    <li><a href="#">Planners</a><sub class="number-of"> 3</sub></li>
-                    <li><a href="#">Stylists</a><sub class="number-of"> 4</sub></li>
-                    <li><a href="#">Transport</a><sub class="number-of"> 2</sub></li>
-                    <li><a href="#">Venues</a><sub class="number-of"> 10</sub></li>
+                    <?php foreach($exhibitor_types as $type) : ?>
+                        <li><a href="<?php echo get_permalink($type); ?>"><?php echo $type->post_title; ?></a><sub class="number-of"><?php echo getTypeCount($type); ?></sub></li>
+                    <?php endforeach; ?>
                 </ul>
             </div>
         </div> <!-- end #inner-content -->
