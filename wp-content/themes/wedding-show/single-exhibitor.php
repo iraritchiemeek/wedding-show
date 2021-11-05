@@ -20,10 +20,10 @@ get_header(); ?>
         <div class="grid-container">
             <div class="grid-x grid-margin-x controls-row">
                 <div class="cell small-12 medium-6 controls-left">                    
-                    <p><a href="#">EXHIBITORS</a></p></p>
+                    <p><a href="">EXHIBITORS</a></p></p>
                    </div>
                <div class="cell small-12 medium-6 controls-right">                    
-                   <p><a href="#"><?php echo strtoupper($type) ?></a></p></div>
+                   <p><a href="<?php echo get_permalink($type) ?>"><?php echo strtoupper($type->post_title) ?></a></p></div>
               </div>
         </div>
         
@@ -44,7 +44,7 @@ get_header(); ?>
          <div class="grid-container">
                <div class="grid-x grid-margin-x ">
                     <div class="cell small-12 medium-12">                    
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/rs-main-image.jpg">
+                      <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full'); ?>" style="object-fit: cover; height: 100%; width: 100%;" />
                     </div>
             </div>
           </div><!-- end grid-container -->

@@ -1,6 +1,6 @@
 <?php 
 /*
-	Template Name: Exhibitors-cat
+	Template Name: Single Exhibitor Type
 */
 
 get_header(); ?>
