@@ -62,8 +62,7 @@ get_header(); ?>
                     </div>
                    <div class="cell small-6 medium-2 medium-offset-1">                    
                       <h6>NOTES</h6>
-                        <p>Capacity: 200 dining<br />
-                       500 cocktail.</p>
+                        <?php echo $notes; ?>
                     </div>
 
                     <div class="cell small-12 medium-5 medium-offset-2 content-pad">                    
