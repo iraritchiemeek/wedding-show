@@ -57,7 +57,7 @@ get_header(); ?>
                <div class="grid-x grid-margin-x ">
                	<?php foreach($exhibitors as $exhibitor) : ?>
                		 <div class="cell small-12 medium-6 exhibitor-cat">                    
-               		     <a href="<?php get_permalink($exhibitor) ?>"><img src="<?php echo get_the_post_thumbnail_url($exhibitor->ID, 'full'); ?>" style="object-fit: cover; height: 100%; width: 100%;">
+               		     <a href="<?php echo get_permalink($exhibitor) ?>"><img src="<?php echo get_the_post_thumbnail_url($exhibitor->ID, 'full'); ?>" style="object-fit: cover; height: 100%; width: 100%;">
                		     <h2><?php echo $exhibitor->post_title ?></h2></a>
                		</div>
                	<?php endforeach; ?>
