@@ -1,5 +1,8 @@
 .top-bar, .top-bar {
-    padding: 20px;
+    padding: 20px 20px;
+    @media screen and (max-width: 39.9375em) {  
+    padding: 20px 0px;
+    }
     ul {
         background-color: #fff;
         li {
@@ -20,8 +23,13 @@
     
     
 }
-
-
+@media screen and (max-width: 39.9375em) {  
+    .top-bar .top-bar-left, .top-bar .top-bar-right {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 20%;  // this was altered from standard
+        max-width: 100%;
+    }
+}
 
 .top-bar .top-bar-left {
     -ms-flex: 1 1 auto;
@@ -34,6 +42,18 @@
     }
     
 }
+.header {
+    position: fixed;
+    width: 100%;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #fff;
+    position: relative;
+}
+
+
+
 
 .fix-it {
     position: fixed;
@@ -68,3 +88,24 @@
     text-indent: -9999px;
     
 }
+
+
+.menu .button, .menu a {
+    line-height: 1;
+    text-decoration: none;
+    display: block;
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+}
+
+
+
+.menu.vertical {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 19px;
+}
+
+

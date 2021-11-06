@@ -92,7 +92,7 @@ get_header(); ?>
         <div class="grid-container ">
             <div class="inner-content grid-x grid-margin-x grid-padding-x">
                 <div class="small-12 large-12 medium-12 cell">
-                    <p>Introducing SEEN MAGAZINE. <br />Celebrating the Wellington Weddings <br />& Events Show Scene</p>
+                    <p>Introducing SCENE MAGAZINE. <br />Celebrating the Wellington Weddings <br />& Events Show Scene</p>
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/scene-cover-100.jpg">
                     <p>Available 1ST MAY</p>
                 </div>

@@ -27,7 +27,7 @@
 
 .scene-title-logo-container {
 height: 105px;
-    margin-top: 136px;
+    padding-top: 297px;
     background-image: url(../images/scene-hm-logo-lg.svg);
     background-repeat: no-repeat;
     background-position: top 173px center;
@@ -37,7 +37,7 @@ height: 105px;
 @media screen and (max-width: 39.9375em) {
     .scene-title-logo-container {
         height: 105px;
-        margin-top: 62px;
+        padding-top: 237px;
         background-image: url(../images/scene-hm-logo-mob.svg);
         background-repeat: no-repeat;
         background-position: top 173px center;

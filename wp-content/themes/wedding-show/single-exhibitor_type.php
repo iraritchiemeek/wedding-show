@@ -40,8 +40,7 @@ get_header(); ?>
 	
 		    <main class="main small-12 large-12 medium-12 cell" role="main">
                 
-				
-				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 			    	<?php get_template_part( 'parts/loop', 'page' ); ?>
 			    
@@ -57,7 +56,7 @@ get_header(); ?>
                <div class="grid-x grid-margin-x ">
                	<?php foreach($exhibitors as $exhibitor) : ?>
                		 <div class="cell small-12 medium-6 exhibitor-cat">                    
-               		     <a href="<?php echo get_permalink($exhibitor) ?>"><img src="<?php echo get_the_post_thumbnail_url($exhibitor->ID, 'full'); ?>" style="object-fit: cover; height: 100%; width: 100%;">
+               		     <a href="<?php echo get_permalink($exhibitor) ?>"><img src="<?php echo get_the_post_thumbnail_url($exhibitor->ID, 'full'); ?>" style="object-fit: cover; height: 80%; width: 100%;">
                		     <h2><?php echo $exhibitor->post_title ?></h2></a>
                		</div>
                	<?php endforeach; ?>

@@ -26,17 +26,32 @@ a {
     font-style: normal;
     font-size: 8vw;
     text-align: center;
+
 }
+
+@media screen and (max-width: 39.9375em) {
+    .h1, h1  {
+       font-size: 12vw; 
+    }
+}
+
+
 
 .h2, h2  {
     font-family: ltc-bodoni-175,serif;
     font-weight: 400;
     font-style: normal;
     font-size: 2.4rem;
-    text-align: center;
-    
-    
+    text-align: center;  
 }
+
+@media screen and (max-width: 39.9375em) {
+    .h2, h2  {
+       font-size: 1.5rem; 
+    }
+}
+
+
 
 .h3, .h4, .h5, .h6, h3, h4, h5, h6 {
     font-family: "Moderat-bold",Helvetica,Roboto,Arial,sans-serif;
@@ -69,8 +84,15 @@ border-right: 1px solid white;
 }
 
 .details {
-    padding-top: 40px;
-    padding-bottom: 60px
+    padding-bottom: 60px;
+    
+    .details-list {
+        padding-bottom: 60px;
+        p {
+          margin-bottom: .5rem;
+            
+            }
+        }
 }
 
 /*********************
