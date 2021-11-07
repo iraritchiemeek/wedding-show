@@ -27,11 +27,11 @@ get_header(); ?>
         
         <div class="grid-container">
             <div class="grid-x grid-margin-x controls-row">
-                <div class="cell small-12 medium-6 controls-left">                    
-                    <p><a href="#">EXHIBITORS</a></p></p>
+                  <div class="cell small-6 medium-6 controls-left">                    
+                    <p><a href="<?php echo get_permalink(9); ?>">EXHIBITORS</a></p></p>
                    </div>
-               <div class="cell small-12 medium-6 controls-right">                    
-                   <p><a href="#">All</a>     |    <a href="#">Weddings</a>    |     <a href="#">Events</a></p></div>
+               <div class="cell small-6 medium-6 controls-right">                    
+                   <p><a href="<?php echo get_permalink(6); ?>">1ST MAY 2022</a></p></div>
               </div>
         </div>
         

@@ -12,6 +12,7 @@
     p {
         text-align: center;
         font-family: "Moderat-bold",Helvetica,Roboto,Arial,sans-serif;
+        text-transform: uppercase;
     }
     
     .showdetails {
@@ -61,6 +62,8 @@ height: 105px;
         font-weight: 400;
         font-style: normal;
         font-size: 2rem;
+        
+        
     }
 }
 
@@ -80,6 +83,12 @@ height: 105px;
             @media screen and (max-width: 39.9375em) {              
                             font-size: 9vw;
                     }
+            
+            a {
+                transition: 0.3s;
+            }
+
+            
             
             sub {
                     bottom: 4.75em;

@@ -71,9 +71,12 @@ get_header(); ?>
         
     <div class="grid-container">
         <div class="inner-content grid-x grid-margin-x grid-padding-x">
-            <div class="small-12 large-12 medium-12 cell">
-            <p>EXHIBITORS</p>
-            </div>
+      <div class="cell small-6 medium-6 controls-left">                    
+                    <p><a href="<?php echo get_permalink(9); ?>">EXHIBITORS</a></p></p>
+                   </div>
+               <div class="cell small-6 medium-6 controls-right">                    
+                   <p><a href="<?php echo get_permalink(6); ?>">1ST MAY 2022</a></p></div>
+              </div>
         </div> <!-- end #inner-content -->
     </div><!-- end grid-container --> 
         
@@ -92,7 +95,7 @@ get_header(); ?>
         <div class="grid-container ">
             <div class="inner-content grid-x grid-margin-x grid-padding-x">
                 <div class="small-12 large-12 medium-12 cell">
-                    <p>Introducing SCENE MAGAZINE. <br />Celebrating the Wellington Weddings <br />& Events Show Scene</p>
+                    <p>Introducing SCENE MAGAZINE. <br />Celebrating our Wellington Wedding <br />& Event Scene</p>
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/scene-cover-100.jpg">
                     <p>Available 1ST MAY</p>
                 </div>

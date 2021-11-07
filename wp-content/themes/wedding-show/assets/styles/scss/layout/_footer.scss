@@ -4,11 +4,13 @@
     background-repeat: no-repeat;
     background-position: bottom center;
     
+
     .inner-footer {
         padding: 120px 0 300px;
         
         @media screen and (max-width: 39.9375em) {  
             text-align: center;
+             padding: 120px 0 200px;
         }
          ol, ul {
             list-style-type: none;
@@ -18,3 +20,9 @@
     }
 }
       
+    @media screen and (max-width: 39.9375em) {  
+        .footer {
+            background-image: url(../images/scene-hm-logo-mob.svg);
+        }
+    }
+    
