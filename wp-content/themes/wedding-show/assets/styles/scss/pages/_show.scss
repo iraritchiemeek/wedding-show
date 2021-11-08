@@ -3,13 +3,13 @@
 .cover-show {
     overflow: hidden;
     position: relative;
-    &:hover {
-        .bg-image {
-            transform: scale(1.1);
-        }
-    }
+    // &:hover {
+    //     .bg-image {
+    //         transform: scale(1.1);
+    //     }
+    // }
     .bg-image {
-        transition: transform 3s ease-in; 
+        // transition: transform 3s ease-in; 
         height: 100%;
         width: 100%;
         position: absolute;

@@ -2,8 +2,7 @@
 /**
  * The template for the home page
  *
-
- */
+*/
 
 function getExhibitorTypes() {
     $args = array(
@@ -40,7 +39,7 @@ get_header(); ?>
     </div>
         
         <section class="cover">
-            <div class="bg-image"></div>
+            <div class="bg-image bg-image-animate"></div>
             <div class="grid-container">
                <div class="grid-x grid-margin-x showdetails">
                 <div class="cell small-4 border-right"><p>Wellington<br /> Wedding & <br />Event Show</p></div>
