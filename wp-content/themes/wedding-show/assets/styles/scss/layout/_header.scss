@@ -1,5 +1,6 @@
 .top-bar, .top-bar {
     padding: 20px 20px;
+    position: relative;
     @media screen and (max-width: 39.9375em) {  
     padding: 20px 0px;
     }
@@ -45,6 +46,7 @@
 .header {
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 .top-bar, .top-bar ul {
