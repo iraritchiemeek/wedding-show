@@ -70,6 +70,7 @@ CSS file.
 
 // Import your custom styles
 @import "global";
+@import "utilities/mixins";
 
 @import "layout/header";
 @import "layout/footer";

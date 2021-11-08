@@ -1,13 +1,28 @@
 
 
 .cover {
+    overflow: hidden;
+    position: relative;
+    &:hover {
+        .bg-image {
+            transform: scale(1.1);
+        }
+    }
+    .bg-image {
+        transition: transform 3s ease-in;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        background-image: url(../images/home-cover-temp.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
     color: white;
-    background-image: url(../images/home-cover-temp.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     height: 100vh;
-    
+
 
     p {
         text-align: center;
