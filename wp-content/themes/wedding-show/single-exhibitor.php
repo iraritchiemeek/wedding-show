@@ -20,7 +20,7 @@ get_header(); ?>
         <div class="grid-container">
             <div class="grid-x grid-margin-x controls-row">
                 <div class="cell small-6 medium-6 controls-left">                    
-                    <p><a href="">EXHIBITORS</a></p></p>
+                    <p><a href="<?php echo get_permalink(9); ?>">EXHIBITORS</a></p>
                    </div>
                <div class="cell small-6 medium-6 controls-right">                    
                    <p><a href="<?php echo get_permalink($type) ?>"><?php echo strtoupper($type->post_title) ?></a></p></div>

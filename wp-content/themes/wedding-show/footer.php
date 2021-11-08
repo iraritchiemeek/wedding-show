@@ -29,11 +29,11 @@
                         
                             <div class="cell small-12 medium-3">
                             <p>Paula Bevege<br />
-                               Phone: 0274 490 025<br />
-                               Email: paula@sceneevents.co.nz</p>
+                               0274 490 025<br />
+                               paula@sceneevents.co.nz</p>
                             <p>Charlotte Wood<br />
-                               Phone 027 372 5015<br />
-                               Email: charlotte@sceneevents.co.nz</p>
+                               027 372 5015<br />
+                               charlotte@sceneevents.co.nz</p>
                             </div>
                         
                           
