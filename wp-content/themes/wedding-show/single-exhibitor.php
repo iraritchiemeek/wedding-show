@@ -8,6 +8,7 @@ $hours = get_field('hours');
 $phone = get_field('phone');
 $address = get_field('address');
 $email = get_field('email');
+$website_url = get_field('website');
 $website = end(explode('://', get_field('website')));
 $facebook = get_field('facebook');
 $instagram = get_field('instagram');
@@ -52,7 +53,7 @@ get_header(); ?>
                         <?php echo $phone ? "<p>Phone: {$phone}</p>" : "" ?>
                         <?php echo $address ? "<p>Address: {$address}</p>" : "" ?>
                         <?php echo $email ? "<p>Email: <a href='mailto:{$email}'>{$email}</a></p>" : "" ?>
-                        <?php echo $website ? "<p>Website: <a href='{$website}' target='_blank'>{$website}</a></p>" : "" ?>
+                        <?php echo $website ? "<p>Website: <a href='{$website_url}' target='_blank'>{$website}</a></p>" : "" ?>
                         <?php echo $facebook ? "<p>Facebook: <a target='_blank' href='https://www.facebook.com/{$facebook}'>{$facebook}</p>" : "" ?>
                         <?php echo $instagram ? "<p>Instagram: <a target='_blank' href='https://www.instagram.com/{$instagram}'>{$instagram}</a></p>" : "" ?>
                     </div>
