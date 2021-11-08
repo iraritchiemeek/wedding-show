@@ -40,7 +40,8 @@ get_header(); ?>
     </div>
         
         <section class="cover">
-        <div class="grid-container">
+            <div class="bg-image"></div>
+            <div class="grid-container">
                <div class="grid-x grid-margin-x showdetails">
                 <div class="cell small-4 border-right"><p>Wellington<br /> Wedding & <br />Event Show</p></div>
                 <div class="cell small-4 border-right"><p>1ST MAY, <br />10am – 4pm,<br />2022</p></div>

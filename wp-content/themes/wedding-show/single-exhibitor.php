@@ -8,7 +8,7 @@ $hours = get_field('hours');
 $phone = get_field('phone');
 $address = get_field('address');
 $email = get_field('email');
-$website = get_field('website');
+$website = end(explode('www.', get_field('website')));
 $facebook = get_field('facebook');
 $instagram = get_field('instagram');
 $notes = get_field('notes');
@@ -51,10 +51,10 @@ get_header(); ?>
                         <?php echo $hours ? "<p>Hours: {$hours}</p>" : "" ?>
                         <?php echo $phone ? "<p>Phone: {$phone}</p>" : "" ?>
                         <?php echo $address ? "<p>Address: {$address}</p>" : "" ?>
-                        <?php echo $email ? "<p>Email: {$email}</p>" : "" ?>
+                        <?php echo $email ? "<p>Email: <a href='mailto:{$email}'>{$email}</a></p>" : "" ?>
                         <?php echo $website ? "<p>Website: <a href='{$website}' target='_blank'>{$website}</a></p>" : "" ?>
-                        <?php echo $facebook ? "<p>Facebook: {$facebook}</p>" : "" ?>
-                        <?php echo $instagram ? "<p>Instagram: @{$instagram}</p>" : "" ?>
+                        <?php echo $facebook ? "<p>Facebook: <a target='_blank' href='https://www.facebook.com/{$facebook}'>{$facebook}</p>" : "" ?>
+                        <?php echo $instagram ? "<p>Instagram: <a target='_blank' href='https://www.instagram.com/{$instagram}'>{$instagram}</a></p>" : "" ?>
                     </div>
                    <div class="cell small-6 medium-2 medium-offset-1">                    
                       <h6>NOTES</h6>
