@@ -9,6 +9,7 @@ get_header(); ?>
 	<div class="content">
         
         <section class="cover-show">
+            <div class="bg-image"></div>
             <div class="grid-container">
                <div class="grid-x grid-margin-x showdetails">
                     <div class="cell medium-4 "><p>1ST MAY 2022</p></div>
