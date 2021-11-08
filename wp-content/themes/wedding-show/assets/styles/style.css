@@ -7622,6 +7622,7 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
 
 .top-bar, .top-bar {
   padding: 20px 20px;
+  position: relative;
 }
 @media screen and (max-width: 39.9375em) {
   .top-bar, .top-bar {
@@ -7668,6 +7669,7 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
 .header {
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 .top-bar, .top-bar ul {
