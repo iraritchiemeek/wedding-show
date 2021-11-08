@@ -1,21 +1,36 @@
 
 
 .cover-show {
+    overflow: hidden;
+    position: relative;
+    &:hover {
+        .bg-image {
+            transform: scale(1.1);
+        }
+    }
+    .bg-image {
+        transition: transform 3s ease-in; 
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1; 
+        background-image: url(../images/show-cover-temp.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
     color: white;
-    background-image: url(../images/show-cover-temp.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     padding-top: 80px;
     height: 100vh;
-      display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     
     .h1, h1  {
     line-height: 1;

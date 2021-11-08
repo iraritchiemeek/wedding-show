@@ -7895,11 +7895,9 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
 }
 
 .cover-show {
+  overflow: hidden;
+  position: relative;
   color: white;
-  background-image: url(../images/show-cover-temp.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   padding-top: 80px;
   height: 100vh;
   display: -webkit-box;
@@ -7910,6 +7908,20 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+.cover-show:hover .bg-image {
+  transform: scale(1.1);
+}
+.cover-show .bg-image {
+  transition: transform 3s ease-in;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  background-image: url(../images/show-cover-temp.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .cover-show .h1, .cover-show h1 {
   line-height: 1;
