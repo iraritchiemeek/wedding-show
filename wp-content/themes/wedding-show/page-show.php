@@ -9,7 +9,7 @@ get_header(); ?>
 	<div class="content">
         
         <section class="cover-show">
-            <div class="bg-image"></div>
+            <div class="bg-image bg-image-animate"></div>
             <div class="grid-container">
                <div class="grid-x grid-margin-x showdetails">
                     <div class="cell medium-4 "><p>1ST MAY 2022</p></div>
@@ -55,7 +55,7 @@ get_header(); ?>
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/show-1.jpg">
             </div>
             <div class="small-12 large-6 medium-6 cell">
-              <p class="info-box">As the world is changing at a huge pace – the way we connect, and the interactions we have are also changing. As humans we crave genuine connections and experiences. </p>
+              <p class="info-box">Experiences that bring us together and provide opportunities to celebrate and engage, whether for work or pleasure – personal growth or professional. </p>
             </div>
         </div> <!-- end #inner-content -->
     </div><!-- end grid-container --> 
@@ -63,7 +63,7 @@ get_header(); ?>
     <div class="grid-container padding-row">
         <div class="inner-content grid-x grid-margin-x grid-padding-x align-middle ">
             <div class="small-12 large-6 medium-6 cell small-order-2 medium-order-1">
-              <p class="info-box">Experiences that bring us together and provide opportunities to celebrate and engage, whether for work or pleasure – personal growth or professional.</p>
+              <p class="info-box">Join us for a delicious day of fun, inspiration and the opportunity to meet the best and most creative wedding and event vendors Wellington has to offer.</p>
             </div>
             
             <div class="small-12 large-6 medium-6 cell small-order-1 medium-order-2">
@@ -78,13 +78,24 @@ get_header(); ?>
             <div class="small-12 large-6 medium-6 cell">
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/show-3.jpg">
             </div>
-            <div class="small-12 large-6 medium-6 cell ">
-              <p class="info-box">Join us for a delicious day of fun, inspiration and the opportunity to meet the best and most creative wedding and event vendors Wellington has to offer.</p>
+            <div class="small-12 large-6 medium-6 cell info-box">
+                <p>See you on</p>
+              <h2>Sunday <br />
+                1st May<br />
+                2022</h2>
+                <p>10AM - 4PM<br />TSB BANK AREA</p>
             </div>
         </div> <!-- end #inner-content -->
     </div><!-- end grid-container --> 
         
+     <div class="grid-container padding-row photo-credit">
+        <div class="inner-content grid-x grid-margin-x grid-padding-x align-middle">
+            <div class="small-12 cell">
+              <p>A special thanks to Patina Photo + Video, Sabrina Karin Photography for the images used on this page.</p>
+            </div>
         
+        </div> <!-- end #inner-content -->
+    </div><!-- end grid-container --> 
         
         
    <section class="scenemagazine">

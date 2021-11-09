@@ -2,8 +2,7 @@
 /**
  * The template for the home page
  *
-
- */
+*/
 
 function getExhibitorTypes() {
     $args = array(
@@ -40,7 +39,7 @@ get_header(); ?>
     </div>
         
         <section class="cover">
-            <div class="bg-image"></div>
+            <div class="bg-image bg-image-animate"></div>
             <div class="grid-container">
                <div class="grid-x grid-margin-x showdetails">
                 <div class="cell small-4 border-right"><p>Wellington<br /> Wedding & <br />Event Show</p></div>
@@ -92,6 +91,16 @@ get_header(); ?>
             </div>
         </div> <!-- end #inner-content -->
     </div><!-- end grid-container --> 
+
+     <div class="grid-container padding-row photo-credit">
+        <div class="inner-content grid-x grid-margin-x grid-padding-x align-middle">
+            <div class="small-12 cell">
+              <p>A special thanks to Larissa from Fineline Photography for suppling the image used on this page.</p>
+            </div>
+        
+        </div> <!-- end #inner-content -->
+    </div><!-- end grid-container --> 
+
    <section class="scenemagazine">
         <div class="grid-container ">
             <div class="inner-content grid-x grid-margin-x grid-padding-x">

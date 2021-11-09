@@ -8,6 +8,7 @@ $hours = get_field('hours');
 $phone = get_field('phone');
 $address = get_field('address');
 $email = get_field('email');
+$website_url = get_field('website');
 $website = end(explode('://', get_field('website')));
 $facebook = get_field('facebook');
 $instagram = get_field('instagram');
@@ -46,22 +47,17 @@ get_header(); ?>
           </div><!-- end grid-container -->
           <div class="grid-container">
                <div class="grid-x grid-margin-x details">                    
-                   <div class="cell small-6 medium-2 details-list">                    
+                   <div class="cell small-12 medium-2 details-list">                    
                       <h6>DETAILS</h6>
-                        <?php echo $hours ? "<p>Hours: {$hours}</p>" : "" ?>
                         <?php echo $phone ? "<p>Phone: {$phone}</p>" : "" ?>
-                        <?php echo $address ? "<p>Address: {$address}</p>" : "" ?>
                         <?php echo $email ? "<p>Email: <a href='mailto:{$email}'>{$email}</a></p>" : "" ?>
-                        <?php echo $website ? "<p>Website: <a href='{$website}' target='_blank'>{$website}</a></p>" : "" ?>
+                        <?php echo $website ? "<p>Website: <a href='{$website_url}' target='_blank'>{$website}</a></p>" : "" ?>
                         <?php echo $facebook ? "<p>Facebook: <a target='_blank' href='https://www.facebook.com/{$facebook}'>{$facebook}</p>" : "" ?>
                         <?php echo $instagram ? "<p>Instagram: <a target='_blank' href='https://www.instagram.com/{$instagram}'>{$instagram}</a></p>" : "" ?>
                     </div>
-                   <div class="cell small-6 medium-2 medium-offset-1">                    
-                      <h6>NOTES</h6>
-                        <?php echo $notes; ?>
-                    </div>
 
-                    <div class="cell small-12 medium-5 medium-offset-2">   
+
+                    <div class="cell small-12 medium-6 medium-offset-4">   
                         <h6>ABOUT</h6>
                       <?php echo the_content(); ?>
                     </div>

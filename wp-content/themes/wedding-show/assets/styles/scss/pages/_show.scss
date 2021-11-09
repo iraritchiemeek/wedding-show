@@ -3,13 +3,7 @@
 .cover-show {
     overflow: hidden;
     position: relative;
-    &:hover {
-        .bg-image {
-            transform: scale(1.1);
-        }
-    }
     .bg-image {
-        transition: transform 3s ease-in; 
         height: 100%;
         width: 100%;
         position: absolute;
@@ -49,6 +43,10 @@
 .info-box {
     text-align: center;
     padding: 0px 100px;
+    .h2, h2 {
+        font-size: 4.4rem;
+        line-height: 5rem;
+    }
 }
 
 @media screen and (max-width: 39.9375em) {
