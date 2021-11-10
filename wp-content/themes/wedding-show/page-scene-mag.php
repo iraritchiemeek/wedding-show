@@ -17,6 +17,7 @@ get_header(); ?>
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/scene-cover-100.jpg">
                     <p>Available 1ST MAY</p>
                     <p>When it comes to a great day or night out, Wellington has the secret sauce. Scene Magazine will document special moments, the good times and connections that make weddings and events unique in our beautiful city.</p>
+                    <p class="dark">*Note that this is a mockup only. Cover image by <a href="https://patina.photo/" target="_blank">Patina Photo + Video</a></p>
                 </div>
             </div> <!-- end #inner-content -->
         </div><!-- end grid-container --> 

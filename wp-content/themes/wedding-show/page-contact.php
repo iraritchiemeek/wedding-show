@@ -67,6 +67,7 @@ get_header(); ?>
                     <p>Introducing SCENE MAGAZINE. <br />Celebrating our Wellington Wedding <br />& Event Scenes</p>
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/scene-cover-100.jpg">
                     <p>Available 1ST MAY</p>
+                    <p class="dark">*Note that this is a mockup only. Cover image by <a href="https://patina.photo/" target="_blank">Patina Photo + Video</a></p>
                 </div>
             </div> <!-- end #inner-content -->
         </div><!-- end grid-container --> 

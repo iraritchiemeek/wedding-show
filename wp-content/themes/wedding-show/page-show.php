@@ -91,7 +91,7 @@ get_header(); ?>
      <div class="grid-container padding-row photo-credit">
         <div class="inner-content grid-x grid-margin-x grid-padding-x align-middle">
             <div class="small-12 cell">
-              <p>A special thanks to Patina Photo + Video, Sabrina Karin Photography for the images used on this page.</p>
+              <p>A special thanks to <a href="https://patina.photo/" target="_blank">Patina Photo + Video</a>, <a href="https://www.facebook.com/sabrinakarinphotography/" target="_blank">Sabrina Karin Photography</a> and <a href="https://www.billiebrookphotography.co.nz/" target="_blank">Billie Brook Photography</a> for the images used on this page.</p>
             </div>
         
         </div> <!-- end #inner-content -->
@@ -105,6 +105,7 @@ get_header(); ?>
                     <p>Introducing SCENE MAGAZINE. <br />Celebrating our Wellington Wedding <br />& Event Scenes</p>
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/scene-cover-100.jpg">
                     <p>Available 1ST MAY</p>
+                        <p class="dark">*Note that this is a mockup only. Cover image by <a href="https://patina.photo/" target="_blank">Patina Photo + Video</a></p>
                 </div>
             </div> <!-- end #inner-content -->
         </div><!-- end grid-container --> 

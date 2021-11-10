@@ -42,8 +42,8 @@ get_header(); ?>
             <div class="bg-image bg-image-animate"></div>
             <div class="grid-container">
                <div class="grid-x grid-margin-x showdetails">
-                <div class="cell small-4 border-right"><p>Wellington<br /> Wedding & <br />Event Show</p></div>
-                <div class="cell small-4 border-right"><p>1ST MAY, <br />10am – 4pm,<br />2022</p></div>
+                <div class="cell small-4 "><p>Wellington<br /> Wedding & <br />Event Show</p></div>
+                <div class="cell small-4 border-left-right"><p>1ST MAY, <br />10am – 4pm,<br />2022</p></div>
                 <div class="cell small-4"><p>TSB BANK <br />AREA, <br />WELLINGTON</p></div>
               </div>
             </div>
@@ -108,6 +108,7 @@ get_header(); ?>
                     <p>Introducing SCENE MAGAZINE. <br />Celebrating our Wellington Wedding <br />& Event Scene</p>
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/scene-cover-100.jpg">
                     <p>Available 1ST MAY</p>
+                    <p class="dark">*Note that this is a mockup only. Cover image by <a href="https://patina.photo/" target="_blank">Patina Photo + Video</a></p>
                 </div>
             </div> <!-- end #inner-content -->
         </div><!-- end grid-container --> 
